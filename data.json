@@ -45,7 +45,7 @@
   ],
   "projects": [
     {
-      "img": "projectsImgs/img1.jpg",
+      "img": "/cv/projectsImgs/img1.jpg",
       "titel": "titel of projects",
       "descreption": "this th egsi ssysyso",
       "usable": true,

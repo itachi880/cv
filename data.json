@@ -45,12 +45,12 @@
   ],
   "projects": [
     {
-      "img": "/projectsImgs/img1.jpg",
+      "img": "projectsImgs/img1.jpg",
       "titel": "titel of projects",
       "descreption": "this th egsi ssysyso",
       "usable": true,
       "link": "#isusable"
     }
   ],
-  "imgs": { "logo": "/imgs/logo.png", "profile": "/imgs/profile.jpg" }
+  "imgs": { "logo": "imgs/logo.png", "profile": "imgs/profile.jpg" }
 }

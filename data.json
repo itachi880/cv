@@ -1,0 +1,56 @@
+{
+  "skills": [
+    {
+      "name": "html",
+      "percenteg": 100,
+      "color": "#e34c26",
+      "isBrand": true,
+      "logo": "fa-html5"
+    },
+    {
+      "name": "css",
+      "percenteg": 100,
+      "color": "#4285f4",
+      "isBrand": true,
+      "logo": "fa-css3"
+    },
+    {
+      "name": "node-js",
+      "percenteg": 100,
+      "color": "#3c873a",
+      "isBrand": true,
+      "logo": "fa-node-js"
+    },
+    {
+      "name": "react",
+      "percenteg": 100,
+      "color": "#61dafb",
+      "isBrand": true,
+      "logo": "fa-react"
+    },
+    {
+      "name": "js",
+      "percenteg": 100,
+      "color": "#f0db4f",
+      "isBrand": true,
+      "logo": "fa-js"
+    },
+    {
+      "name": "mongodb",
+      "percenteg": 100,
+      "color": "#049024",
+      "isBrand": false,
+      "logo": "fa-database"
+    }
+  ],
+  "projects": [
+    {
+      "img": "cv/projectsImgs/img1.jpg",
+      "titel": "titel of projects",
+      "descreption": "this th egsi ssysyso",
+      "usable": true,
+      "link": "#isusable"
+    }
+  ],
+  "imgs": { "logo": "imgs/logo.png", "profile": "imgs/profile.jpg" }
+}

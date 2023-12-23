@@ -90,7 +90,7 @@ export default function BodyPage() {
   }, []);
 
   useEffect(() => {
-    fetch("/data.json").then((res) => {
+    fetch("data.json").then((res) => {
       res.json().then((res) => {
         setSkills(res.skills);
         setProjects(res.projects);

@@ -20,7 +20,7 @@ export default function Navbar() {
     <nav className={deviceWidth >= 610 ? "nav-pc" : "nav-phone"}>
       <div className={deviceWidth >= 610 ? "logo-pc" : "logo-phone"}>
         <a href="#home">
-          <img draggable="false" src="imgs/logo.png" alt="logo" />
+          <img draggable="false" src="/cv/imgs/logo.png" alt="logo" />
         </a>
       </div>
       <ul className={deviceWidth >= 610 ? "list-pc" : "list-phone"}>

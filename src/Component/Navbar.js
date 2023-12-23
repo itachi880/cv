@@ -25,6 +25,7 @@ export default function Navbar() {
       </div>
       <ul className={deviceWidth >= 610 ? "list-pc" : "list-phone"}>
         <li>
+          <li></li>{" "}
           <a onClick={handelNavCick} href="#home">
             home
           </a>

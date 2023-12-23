@@ -149,7 +149,7 @@ export default function BodyPage() {
           </div>
         </div>
         <div className="profile">
-          <img src="cv/imgs/profile.jpg" />
+          <img src="/cv/imgs/profile.jpg" />
         </div>
       </div>
       <div

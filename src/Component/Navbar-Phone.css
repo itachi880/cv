@@ -11,74 +11,73 @@ nav.nav-phone {
   top: 0px;
   background-color: white;
   z-index: 1;
+}
+nav.nav-phone a {
+  color: #101061;
+}
+nav.nav-phone a::after {
+  content: "";
+  position: relative;
+  display: block;
+  left: 0;
+  right: 0;
+  width: 0px;
+  background-color: #006196;
+  border-radius: 10px;
+  height: 4px;
+  transition: all 0.2s ease-in-out;
+}
+nav.nav-phone a.active {
+  color: #006196;
+}
+nav.nav-phone a.active::after {
+  width: 100%;
+}
 
-  a {
-    color: #101061;
-  }
-  a::after {
-    content: "";
-    position: relative;
-    display: block;
-    left: 0;
-    right: 0;
-    width: 0px;
-    background-color: #006196;
-    border-radius: 10px;
-    height: 4px;
-    transition: all 0.2s ease-in-out;
-  }
-  a.active {
-    color: #006196;
-  }
-  a.active::after {
-    width: 100%;
-  }
-
-  ul.list-phone {
-    position: absolute;
-    z-index: 1000;
-    right: 0;
-    top: 48px;
-    background-color: white;
-    box-shadow: 0px 4px 7px 0px rgb(87, 87, 87);
-    list-style: none;
-    text-align: center;
-    overflow: hidden;
-    height: 0px;
-    transition: all 0.2s ease-in-out;
-    padding: 0 20px;
-    a {
-      color: #101061;
-    }
-    a::after {
-      content: "";
-      position: relative;
-      display: block;
-      left: 0;
-      right: 0;
-      width: 0px;
-      background-color: #006196;
-      border-radius: 10px;
-      height: 4px;
-      transition: all 0.2s ease-in-out;
-    }
-    a.active {
-      color: #006196;
-    }
-    a.active::after {
-      width: 100%;
-    }
-  }
-  ul.list-phone.active {
-    height: 150px;
-  }
+nav.nav-phone ul.list-phone {
+  position: absolute;
+  z-index: 1000;
+  right: 0;
+  top: 48px;
+  background-color: white;
+  box-shadow: 0px 4px 7px 0px rgb(87, 87, 87);
+  list-style: none;
+  text-align: center;
+  overflow: hidden;
+  height: 0px;
+  transition: all 0.2s ease-in-out;
+  padding: 0 20px;
+}
+nav.nav-phone ul.list-phone a {
+  color: #101061;
+}
+nav.nav-phone ul.list-phone a::after {
+  content: "";
+  position: relative;
+  display: block;
+  left: 0;
+  right: 0;
+  width: 0px;
+  background-color: #006196;
+  border-radius: 10px;
+  height: 4px;
+  transition: all 0.2s ease-in-out;
+}
+nav.nav-phone ul.list-phone a.active {
+  color: #006196;
+}
+nav.nav-phone ul.list-phone a.active::after {
+  width: 100%;
+}
+nav.nav-phone ul.list-phone.active {
+  height: 150px;
 }
 .logo-phone {
   width: 90px;
   height: 50px;
-  img {
-    width: 100%;
-    position: relative;
-    left: -25px;
-  }
+}
+.logo-phone img {
+  width: 100%;
+  position: relative;
+  left: -25px;
 }

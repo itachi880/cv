@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
+:root {
+  --second-c: #da8406;
+  --primer-c: #101061;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
+  transition: all 0.5s ease-in-out;
 }
 div#root {
   min-height: 100vh;
@@ -35,10 +39,10 @@ h1.section-titel {
   align-items: flex-end;
   font-size: 30px;
   margin: 30px 0;
-  span {
-    color: var(--primer-c);
-    margin-left: 10px;
-    text-transform: capitalize;
-    font-size: 35px;
-  }
+}
+h1.section-titel span {
+  color: var(--primer-c);
+  margin-left: 10px;
+  text-transform: capitalize;
+  font-size: 35px;
 }

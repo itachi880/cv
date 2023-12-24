@@ -13,39 +13,39 @@ nav.nav-pc {
   background-color: white;
   z-index: 1;
   top: 0px;
-  ul.list-pc {
-    display: flex;
-    gap: 20px;
-    list-style-type: none;
-    a {
-      color: #101061;
-    }
-    a::after {
-      content: "";
-      position: relative;
-      display: block;
-      left: 0;
-      right: 0;
-      width: 0px;
-      background-color: #006196;
-      border-radius: 10px;
-      height: 4px;
-      transition: all 0.2s ease-in-out;
-    }
-    a.active {
-      color: #006196;
-    }
-    a.active::after {
-      width: 100%;
-    }
-  }
+}
+nav.nav-pc ul.list-pc {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+nav.nav-pc ul.list-pc a {
+  color: #101061;
+}
+nav.nav-pc ul.list-pc a::after {
+  content: "";
+  position: relative;
+  display: block;
+  left: 0;
+  right: 0;
+  width: 0px;
+  background-color: #006196;
+  border-radius: 10px;
+  height: 4px;
+  transition: all 0.2s ease-in-out;
+}
+nav.nav-pc ul.list-pc a.active {
+  color: #006196;
+}
+nav.nav-pc ul.list-pc a.active::after {
+  width: 100%;
 }
 .logo-pc {
   width: 90px;
   height: 50px;
-  img {
-    width: 100%;
-    position: relative;
-    left: -25px;
-  }
+}
+.logo-pc img {
+  width: 100%;
+  position: relative;
+  left: -25px;
 }

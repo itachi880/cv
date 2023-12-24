@@ -45,11 +45,39 @@
   ],
   "projects": [
     {
-      "img": "/cv/projectsImgs/img1.jpg",
-      "titel": "titel of projects",
-      "descreption": "this th egsi ssysyso",
-      "usable": false,
-      "link": "#testNow"
+      "img": "/cv/projectsImgs/GAME.png",
+      "titel": "X|O",
+      "descreption": "A X|O game who can enjoy your time with frends",
+      "usable": true,
+      "link": "https://itachi880.github.io/Projects/GAME-1/index.html"
+    },
+    {
+      "img": "/cv/projectsImgs/honor.png",
+      "titel": "E-commers",
+      "descreption": "A simple E-commers front-end web-site who show my front-end and ui/ux skills ",
+      "usable": true,
+      "link": "https://itachi880.github.io/Projects/designe-2(JS-RES)/index.html"
+    },
+    {
+      "img": "/cv/projectsImgs/nick.png",
+      "titel": "E-commers-2",
+      "descreption": "A full E-commers front-end web-site who show my front-end and ui/ux skills ",
+      "usable": true,
+      "link": "https://itachi880.github.io/Projects/designe-2(JS-RES)/index.html"
+    },
+    {
+      "img": "/cv/projectsImgs/timer.png",
+      "titel": "Timer",
+      "descreption": "A interactive timer web app who show my logical thinking and front-end and ui/ux skills ",
+      "usable": true,
+      "link": "https://itachi880.github.io/Projects/TIMER-1/index.html"
+    },
+    {
+      "img": "/cv/projectsImgs/to-do-list.png",
+      "titel": "TO-DO-LIST",
+      "descreption": "A to-do-list web app who help you to know what you sholde do next and increase productivity ",
+      "usable": true,
+      "link": "https://itachi880.github.io/Projects/TO-DO-LIST/index.html"
     }
   ],
   "imgs": { "logo": "imgs/logo.png", "profile": "imgs/profile.jpg" }

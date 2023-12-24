@@ -63,7 +63,7 @@
       "titel": "E-commers-2",
       "descreption": "A full E-commers front-end web-site who show my front-end and ui/ux skills ",
       "usable": true,
-      "link": "https://itachi880.github.io/Projects/designe-2(JS-RES)/index.html"
+      "link": "https://itachi880.github.io/Projects/designe-8(JS-RES)/index.html"
     },
     {
       "img": "/cv/projectsImgs/timer.png",
@@ -77,7 +77,7 @@
       "titel": "TO-DO-LIST",
       "descreption": "A to-do-list web app who help you to know what you sholde do next and increase productivity ",
       "usable": true,
-      "link": "https://itachi880.github.io/Projects/TO-DO-LIST/index.html"
+      "link": "https://itachi880.github.io/Projects/TO-DO-LISTE/index.html"
     }
   ],
   "imgs": { "logo": "imgs/logo.png", "profile": "imgs/profile.jpg" }

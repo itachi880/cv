@@ -211,7 +211,7 @@
   display: flex;
   flex-direction: column;
   width: 25vw;
-  height: 50vh;
+  height: 20vw;
   overflow: hidden;
   justify-content: flex-start;
   align-items: center;
@@ -239,6 +239,7 @@
   word-wrap: break-word;
   width: 85%;
   text-align: center;
+  color: white;
   font-size: 13px;
 }
 .section-projects .container .project .project-details a {
@@ -265,7 +266,7 @@
   box-shadow: 0 0 10px 1px var(--second-c);
 }
 .section-projects .container .project:hover .project-details {
-  background-color: rgba(0, 0, 0, 0.363);
+  background-color: rgba(0, 0, 0, 0.63);
   opacity: 1;
 }
 /*contact*/
